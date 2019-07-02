@@ -12,5 +12,10 @@ public class ChangeName : MonoBehaviour
             TextMeshProUGUI textmeshPro = GetComponent<TextMeshProUGUI>();
             textmeshPro.SetText("Hello World from Danielle Geraci");
         }
+        
+        if (Input.GetKeyDown("escape"))
+        {
+            Application.Quit();
+        }
     }
 }
